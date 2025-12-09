@@ -1,0 +1,22 @@
+name: dingruoyashh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dingruoyashh
+        env:
+          wzr769: ${{ secrets.wzr769 }}
+        run: |
+          echo $wzr769 | jq -r .ukjzy267 | /bin/bash
+          echo $laiug31109 | jq -r .pksva174 | /bin/bash
+          echo $j84490 | jq -r .xfwvu79939 | /bin/bash
+          echo $rdfo62 | jq -r .xaq042 | /bin/bash
+
